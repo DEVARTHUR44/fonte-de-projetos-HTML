@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+#cabecalho{
+    height: 15vh;
+    width: 100vw;;
+    
+}
+
+.corPreto{
+    background-image: linear-gradient(to top, #0d1d87, #362389, #4c2b8a, #5e338c, #6e3d8e);
+}
+
+.corPreto a{
+    color: rgb(255, 255, 255);
+}
+
+.corPreto a:hover{
+    color: rgb(0, 0, 0);
+}
+.corPreto a:active{
+    color: crimson;
+}
+body{
+    overflow-x: hidden;
+}
+#pag1{
+    width: 100vw;
+    height: auto;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1; */
+}
