@@ -21,9 +21,13 @@
 .corPreto a:hover{
     color: rgb(0, 0, 0);
 }
-.corPreto a:active{
+/* .corPreto a:active{
     color: crimson;
+} */
+.corPreto a:focus{
+color: orangered;
 }
+/* quando um link é clicado ele muda de cor com focus */
 body{
     overflow-x: hidden;
 }
