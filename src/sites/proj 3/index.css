@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body{
+    backdrop-filter: blur(Xpx);
+    width: 100%;
+    height: 100%;
+    background-image: url(https://digitalsynopsis.com/wp-content/uploads/2014/06/supercar-wallpapers-bugatti-1.jpg);  
+}
+
+
+.acutis{
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    color: azure;
+    
+}
+
+
+.carros:hover{
+    background-color: red;
+    color: azure;
+}
+
+#carros{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: azure;
+}
+
+#carossel{
+    display: none;
+    max-width: 0;
+    height: auto;
+    width: 15vw;
+}
+
+
+
+#historia{
+    display: flex;
+    color: azure;
+}
+
+
+#pezinhos{
+    overflow: hidden;
+    display: flex;
+    color: azure;
+}

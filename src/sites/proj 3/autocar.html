@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AutoCar</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../../framework/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <!-- cabeçalho -->
+
+    <header>
+
+        <!-- MAVBAR -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <img src="" alt="">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="carros">carros</a></li>
+                                <li><a class="dropdown-item" href="descot">descontosssh</a></li>
+                                <li><a class="dropdown-item" href="historia">historia</a></li>
+                                <li><a class="dropdown-item" href="contatos">contatos</a></li>
+                            </ul>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Launch demo modal
+        </button>
+
+        <!-- Modal -->
+        <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        kkk
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- conteudo -->
+    <main>
+        <section>
+
+            <div class="acutis"> <!-- carlo acutis me salve -->
+                <h3>Sinta o luxo. Viva Autocar</h3>
+            </div>
+            <br>
+            <div id="carros">
+                <button>
+                <a href="garagem.html">
+                    Veja os carros
+                </a>
+                </button>
+            </div>
+                <br>
+            </div>
+
+            <div class="descot">
+
+                <img src="Gemini_Generated_Image_jcfttsjcfttsjcft.png" class="card-img-top" alt="...">
+                <div class="card-body" style="color: azure;">
+                    <h5 class="card-title">DESCOTAÇO NA AUTOCAR</h5>
+                    <p class="card-text">Chegou a hora de tirar seu carro dos sonhos da garagem! Modelos
+                        selecionados
+                        com descontos exclusivos e condições imperdíveis. Mas corre — é por tempo limitado!</p>
+                </div>
+            </div>
+            <br>
+            <div id="historia">
+
+                <h2>
+                    A História da Autocar: Tradição e Inovação desde 1910
+                </h2>
+
+                <p>
+                    Fundada em 1910 por Grillo, um visionário apaixonado por automóveis, a Autocar nasceu com um
+                    objetivo claro: oferecer carros de qualidade e confiança para quem busca mais que um simples
+                    meio de
+                    transporte. Com dedicação e uma forte ética de trabalho, Grillo transformou a Autocar em uma das
+                    referências do mercado, sempre priorizando a inovação e o atendimento impecável.
+
+                    Em 1985, a história da Autocar ganhou um novo capítulo com a chegada de Daniel, um jovem
+                    empreendedor com uma visão moderna para o setor automotivo. Com ele, a empresa passou a explorar
+                    novas tecnologias e a ampliar sua linha de veículos, consolidando-se como um ícone no mercado.
+
+                    Hoje, mais de 100 anos depois, a Autocar segue fiel aos seus princípios, combinando tradição com
+                    inovação para oferecer os melhores carros e experiências para seus clientes. De geração em
+                    geração,
+                    a Autocar não é apenas uma concessionária: é um legado de confiança, qualidade e paixão por
+                    carros.
+                </p>
+
+            </div>
+            <br>
+            <div id="contato">
+                
+
+                <form class="row gy-2 gx-3 align-items-center">
+                    <div class="col-auto">
+                      <label class="visually-hidden" for="autoSizingInput">Nome</label>
+                      <input type="text" class="form-control" id="autoSizingInput" placeholder="Debora Mendes">
+                    </div>
+                    <div class="col-auto">
+                      <label class="visually-hidden" for="autoSizingInputGroup" type="Email">Email</label>
+                      <div class="input-group">
+                        <div class="input-group-text">Email</div>
+                        <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Nome">
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+                        <label class="form-check-label" for="autoSizingCheck">
+                          Lembre-se de mim
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                  </form>
+
+
+
+
+            </div>
+
+        </section>
+    </main>
+
+    <br>
+    <!-- rodapé -->
+    <footer class="pezinhos">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">TODOS OS DIREITOS RESERVADOS A AUTOCAR @2025</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
